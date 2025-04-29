@@ -1,10 +1,10 @@
-NAME = phonebook
+NAME = harl
 
 CC = c++
 CFLAGS = -g -Wall -Wextra -Werror -std=c++98
 LDFLAGS = $(addprefix -L$(LIB_DIR)/lib,$(LIBRARIES))
 
-SRCS =  $(wildcard *.cpp)
+SRCS = Harl.cpp main.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
