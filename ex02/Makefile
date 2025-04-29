@@ -1,9 +1,9 @@
 NAME = this_is_brain
 
 CC = c++
-CFLAGS = -g -Wall -Wextra -Werror -std=c++98
+CFLAGS = -g -Wall -Wextra -Werror -std=c++98 -I.
 
-SRCS = 	$(wildcard *.cpp)
+SRCS = main.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 

@@ -1,9 +1,9 @@
-NAME = unnecessary_violence
+NAME = sed_is_for_loosers
 
-CC = c++
+CC = g++
 CFLAGS = -g -Wall -Wextra -Werror -std=c++98
 
-SRCS = 	$(wildcard *.cpp)
+SRCS = main.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 

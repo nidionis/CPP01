@@ -3,7 +3,7 @@ NAME = unnecessary_violence
 CC = c++
 CFLAGS = -g -Wall -Wextra -Werror -std=c++98
 
-SRCS = 	$(wildcard *.cpp)
+SRCS = HumanA.cpp HumanB.cpp main.cpp Weapon.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 

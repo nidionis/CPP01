@@ -3,7 +3,7 @@ NAME = zombie
 CC = c++
 CFLAGS = -g -Wall -Wextra -Werror -std=c++98
 
-SRCS = 	$(wildcard *.cpp)
+SRCS = main.cpp newZombie.cpp Zombie.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
